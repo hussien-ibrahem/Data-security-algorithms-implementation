@@ -5,22 +5,38 @@ In the digital age, ensuring the security of sensitive data is paramount. This C
 Algorithms Implemented:
 
 Autokey Vigenere: This algorithm combines the Vigenere cipher with a key based on the original message, offering enhanced security compared to traditional Vigenere.
+
 Ceaser: Also known as the shift cipher, Ceaser encryption involves shifting each letter of the plaintext by a fixed number of positions.
+
 Columnar: The Columnar transposition cipher rearranges the plaintext characters according to a user-defined key, offering a simple yet effective encryption technique.
+
 Hill Cipher: A polygraphic substitution cipher based on linear algebra, the Hill cipher encrypts plaintext blocks using matrix multiplication.
+
 Monoalphabetic: This substitution cipher replaces each letter of the plaintext with another letter based on a fixed substitution key.
+
 Playfair: A digraph substitution cipher, the Playfair cipher encrypts plaintext digraphs using a 5x5 matrix of letters.
+
 Rail Fence: Also known as the Zigzag cipher, Rail Fence encryption involves writing the plaintext in a zigzag pattern across a specified number of "rails."
+
 Repeating Key Vigenere: Similar to the Vigenere cipher but with a repeating keyword, offering enhanced security.
+
 AES (Advanced Encryption Standard): A symmetric encryption algorithm widely used for securing electronic data.
+
 DES (Data Encryption Standard): A symmetric-key algorithm for encryption and decryption of electronic data.
+
 Diffie-Hellman: A key exchange algorithm allowing two parties to establish a shared secret over an insecure channel.
+
+
+
 Features:
 
 Encryption and decryption functions for each algorithm.
 Analysis functions to assess the security and performance of the encryption techniques.
 Test cases for each algorithm to ensure correctness and reliability.
 Modular and well-structured codebase for easy understanding and maintenance.
+
+
+
 Usage Guide:
 
 Compile the project using a C# compiler.
